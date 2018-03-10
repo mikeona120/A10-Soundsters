@@ -273,132 +273,132 @@ if ($('.pause').text() == 'Resume Playing') {
 
 
 
-///////////////////////////////////Google Analytics NEW
-$('#SettingsButtonNEW').click(function(){
-  var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Settings clicked screen2 NEW' 
-});
-  // Sends the timing event to Google Analytics.
-  gtag('event', 'click', {
-    'name': 'load',
-    'value': timeSincePageLoad,
-    'event_label': timeSincePageLoad,
-    'event_category': 'Time to click Settings screen2 NEW'
-  });
-  });
+// ///////////////////////////////////Google Analytics NEW
+// $('#SettingsButtonNEW').click(function(){
+//   var timeSincePageLoad = Math.round(performance.now());
+//     console.log(timeSincePageLoad);
+//     console.log("test");
+//     gtag('event', 'click', {
+//       'event_category': 'Settings clicked screen2 NEW' 
+// });
+//   // Sends the timing event to Google Analytics.
+//   gtag('event', 'click', {
+//     'name': 'load',
+//     'value': timeSincePageLoad,
+//     'event_label': timeSincePageLoad,
+//     'event_category': 'Time to click Settings screen2 NEW'
+//   });
+//   });
 
-$('#HelpButtonNEW').click(function(){
-  var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Help clicked screen2 NEW' 
-});
-  // Sends the timing event to Google Analytics.
-  gtag('event', 'click', {
-    'name': 'load',
-    'value': timeSincePageLoad,
-    'event_label': timeSincePageLoad,
-    'event_category': 'Time to click Help screen2 NEW'
-  });
-  });
+// $('#HelpButtonNEW').click(function(){
+//   var timeSincePageLoad = Math.round(performance.now());
+//     console.log(timeSincePageLoad);
+//     console.log("test");
+//     gtag('event', 'click', {
+//       'event_category': 'Help clicked screen2 NEW' 
+// });
+//   // Sends the timing event to Google Analytics.
+//   gtag('event', 'click', {
+//     'name': 'load',
+//     'value': timeSincePageLoad,
+//     'event_label': timeSincePageLoad,
+//     'event_category': 'Time to click Help screen2 NEW'
+//   });
+//   });
 
-$('#ProfileButtonNEW').click(function(){
-  var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Profile clicked screen2 NEW' 
-});
-  // Sends the timing event to Google Analytics.
-  gtag('event', 'click', {
-    'name': 'load',
-    'value': timeSincePageLoad,
-    'event_label': timeSincePageLoad,
-    'event_category': 'Time to click Profile screen2 NEW'
-  });
-  });
+// $('#ProfileButtonNEW').click(function(){
+//   var timeSincePageLoad = Math.round(performance.now());
+//     console.log(timeSincePageLoad);
+//     console.log("test");
+//     gtag('event', 'click', {
+//       'event_category': 'Profile clicked screen2 NEW' 
+// });
+//   // Sends the timing event to Google Analytics.
+//   gtag('event', 'click', {
+//     'name': 'load',
+//     'value': timeSincePageLoad,
+//     'event_label': timeSincePageLoad,
+//     'event_category': 'Time to click Profile screen2 NEW'
+//   });
+//   });
 
-$('#LogoutButtonNEW').click(function(){
-  var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Logout clicked screen2 NEW' 
-});
-  // Sends the timing event to Google Analytics.
-  gtag('event', 'click', {
-    'name': 'load',
-    'value': timeSincePageLoad,
-    'event_label': timeSincePageLoad,
-    'event_category': 'Time to click Logout screen2 NEW'
-  });
-  });
+// $('#LogoutButtonNEW').click(function(){
+//   var timeSincePageLoad = Math.round(performance.now());
+//     console.log(timeSincePageLoad);
+//     console.log("test");
+//     gtag('event', 'click', {
+//       'event_category': 'Logout clicked screen2 NEW' 
+// });
+//   // Sends the timing event to Google Analytics.
+//   gtag('event', 'click', {
+//     'name': 'load',
+//     'value': timeSincePageLoad,
+//     'event_label': timeSincePageLoad,
+//     'event_category': 'Time to click Logout screen2 NEW'
+//   });
+//   });
 
-///////////////////////////////////Google Analytics OLD
-$('#SettingsButtonOLD').click(function(){
-  var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Settings clicked screen2 OLD' 
-});
-  // Sends the timing event to Google Analytics.
-  gtag('event', 'click', {
-    'name': 'load',
-    'value': timeSincePageLoad,
-    'event_label': timeSincePageLoad,
-    'event_category': 'Time to click Settings screen2 OLD'
-  });
-  });
+// ///////////////////////////////////Google Analytics OLD
+// $('#SettingsButtonOLD').click(function(){
+//   var timeSincePageLoad = Math.round(performance.now());
+//     console.log(timeSincePageLoad);
+//     console.log("test");
+//     gtag('event', 'click', {
+//       'event_category': 'Settings clicked screen2 OLD' 
+// });
+//   // Sends the timing event to Google Analytics.
+//   gtag('event', 'click', {
+//     'name': 'load',
+//     'value': timeSincePageLoad,
+//     'event_label': timeSincePageLoad,
+//     'event_category': 'Time to click Settings screen2 OLD'
+//   });
+//   });
 
-$('#HelpButtonOLD').click(function(){
-  var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Help clicked screen2 OLD' 
-});
-  // Sends the timing event to Google Analytics.
-  gtag('event', 'click', {
-    'name': 'load',
-    'value': timeSincePageLoad,
-    'event_label': timeSincePageLoad,
-    'event_category': 'Time to click Help screen2 OLD'
-  });
-  });
+// $('#HelpButtonOLD').click(function(){
+//   var timeSincePageLoad = Math.round(performance.now());
+//     console.log(timeSincePageLoad);
+//     console.log("test");
+//     gtag('event', 'click', {
+//       'event_category': 'Help clicked screen2 OLD' 
+// });
+//   // Sends the timing event to Google Analytics.
+//   gtag('event', 'click', {
+//     'name': 'load',
+//     'value': timeSincePageLoad,
+//     'event_label': timeSincePageLoad,
+//     'event_category': 'Time to click Help screen2 OLD'
+//   });
+//   });
 
-$('#ProfileButtonOLD').click(function(){
-  var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Profile clicked screen2 OLD' 
-});
-  // Sends the timing event to Google Analytics.
-  gtag('event', 'click', {
-    'name': 'load',
-    'value': timeSincePageLoad,
-    'event_label': timeSincePageLoad,
-    'event_category': 'Time to click Profile screen2 OLD'
-  });
-  });
+// $('#ProfileButtonOLD').click(function(){
+//   var timeSincePageLoad = Math.round(performance.now());
+//     console.log(timeSincePageLoad);
+//     console.log("test");
+//     gtag('event', 'click', {
+//       'event_category': 'Profile clicked screen2 OLD' 
+// });
+//   // Sends the timing event to Google Analytics.
+//   gtag('event', 'click', {
+//     'name': 'load',
+//     'value': timeSincePageLoad,
+//     'event_label': timeSincePageLoad,
+//     'event_category': 'Time to click Profile screen2 OLD'
+//   });
+//   });
 
-$('#LogoutButtonOLD').click(function(){
-  var timeSincePageLoad = Math.round(performance.now());
-    console.log(timeSincePageLoad);
-    console.log("test");
-    gtag('event', 'click', {
-      'event_category': 'Logout clicked screen2 OLD' 
-});
-  // Sends the timing event to Google Analytics.
-  gtag('event', 'click', {
-    'name': 'load',
-    'value': timeSincePageLoad,
-    'event_label': timeSincePageLoad,
-    'event_category': 'Time to click Logout screen2 OLD'
-  });
-  });
+// $('#LogoutButtonOLD').click(function(){
+//   var timeSincePageLoad = Math.round(performance.now());
+//     console.log(timeSincePageLoad);
+//     console.log("test");
+//     gtag('event', 'click', {
+//       'event_category': 'Logout clicked screen2 OLD' 
+// });
+//   // Sends the timing event to Google Analytics.
+//   gtag('event', 'click', {
+//     'name': 'load',
+//     'value': timeSincePageLoad,
+//     'event_label': timeSincePageLoad,
+//     'event_category': 'Time to click Logout screen2 OLD'
+//   });
+//   });
