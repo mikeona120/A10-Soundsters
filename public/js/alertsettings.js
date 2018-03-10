@@ -1,5 +1,6 @@
 $(document).ready(centerIcons());
 $(document).ready(activeAlert());
+$(document).ready(defaultAlertTime());
 
 function centerIcons() {
   $('.icons i').addClass('d-flex justify-content-center align-items-center');
@@ -19,11 +20,22 @@ if(alertVol != null){
 	document.getElementById("alertVolume").value = alertVol*100;
 }
 
-// alert time slider
-function updateAlertTime(val) {
-  document.getElementById("alerttime").innerHTML = val;
+function defaultAlertTime(val){
+  val = 5;
+  document.getElementById("alerttime").innerHTML = val + " minutes";
   sessionStorage.setItem("alerttimeVal", val);
   sessionStorage.setItem("alerttimeValSecs", "00");
+  console.log(val);
+}
+// alert time slider
+function updateAlertTime(val) {
+  if (val == 1)
+    document.getElementById("alerttime").innerHTML = val + " minute";
+  else
+    document.getElementById("alerttime").innerHTML = val + " minutes";
+  sessionStorage.setItem("alerttimeVal", val);
+  sessionStorage.setItem("alerttimeValSecs", "00");
+  console.log(val);
 }
 
 // alert volume slider

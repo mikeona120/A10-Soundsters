@@ -1,6 +1,8 @@
 $(document).ready(resetSlider);
 $(document).ready(centerIcons);
 $(document).ready(defaultSounds);
+$(document).ready(defaultAlertTime);
+
 
 // bottom navigation bar
 function centerIcons() {
@@ -36,11 +38,21 @@ function updateTimeRange(val) {
   sessionStorage.setItem("downtimeValSecs", "00");
 }
 
+function defaultAlertTime(val){
+  val = 5;
+  document.getElementById("alerttime").innerHTML = val + " minutes";
+  console.log(val);
+}
 // alert time slider
 function updateAlertTime(val) {
-  document.getElementById("alerttime").innerHTML = val;
+  if (val == 1)
+    document.getElementById("alerttime").innerHTML = val + " minute";
+  else
+    document.getElementById("alerttime").innerHTML = val + " minutes";
+  localStorage.setItem("AlertTime", val);
   sessionStorage.setItem("alerttimeVal", val);
   sessionStorage.setItem("alerttimeValSecs", "00");
+  console.log(val);
 }
 
 
