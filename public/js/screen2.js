@@ -238,7 +238,7 @@ $(function () {
 //Scrolling for Soundscape
 $(function(){
   var isDown = false, currentX = 0, currentY = 0;
-
+  $('#scroll1').scrollLeft(515);
   $('#scroll1').mousemove(function(event){
     if(isDown === true){
      //$('#scroll1').scrollTop($('#scroll1').scrollTop() + (currentY - event.pageY)); 

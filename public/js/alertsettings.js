@@ -46,6 +46,7 @@ $(function () {
 //Scrolling for Alert sound
 $(function(){
   var isDown = false, currentX = 0, currentY = 0;
+  $('#scroll2').scrollLeft(860);
   $('#scroll2').mousemove(function(event){
     if(isDown === true){
      //$('#scroll2').scrollTop($('#scroll2').scrollTop() + (currentY - event.pageY)); 

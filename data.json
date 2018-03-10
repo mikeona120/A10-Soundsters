@@ -1,34 +1,6 @@
 {
   "soundscapes": [
   {
-    "color": "color1",
-    "id": "sound1",
-    "icon": "fas fa-tint",
-    "name": "Falling Rain",
-    "soundEffectnum": 1
-  },
-  {
-    "color": "color2",
-    "id": "sound2",
-    "icon": "fas fa-tree",
-    "name": "Forest",
-    "soundEffectnum": 2
-  },
-  {
-    "color": "color3",
-    "id": "sound3",
-    "icon": "fab fa-free-code-camp",
-    "name": "Fireplace",
-    "soundEffectnum": 3
-  },
-  {
-    "color": "color4",
-    "id": "sound4",
-    "icon": "fas fa-ellipsis-h",
-    "name": "White Noise",
-    "soundEffectnum": 4
-  },
-  {
     "color": "color6",
     "id": "sound6",
     "icon": "fab fa-soundcloud",
@@ -55,6 +27,34 @@
     "icon": "fab fa-forumbee",
     "name": "Nocturnal",
     "soundEffectnum": 11
+  },
+  {
+    "color": "color1",
+    "id": "sound1",
+    "icon": "fas fa-tint",
+    "name": "Falling Rain",
+    "soundEffectnum": 1
+  },
+  {
+    "color": "color2",
+    "id": "sound2",
+    "icon": "fas fa-tree",
+    "name": "Forest",
+    "soundEffectnum": 2
+  },
+  {
+    "color": "color3",
+    "id": "sound3",
+    "icon": "fab fa-free-code-camp",
+    "name": "Fireplace",
+    "soundEffectnum": 3
+  },
+  {
+    "color": "color4",
+    "id": "sound4",
+    "icon": "fas fa-ellipsis-h",
+    "name": "White Noise",
+    "soundEffectnum": 4
   },
   {
     "color": "color12",
@@ -86,34 +86,6 @@
   }
 ],
   "alerts": [
-  {
-    "alarm": "alarm19",
-    "id": "sound19",
-    "icon": "fas fa-bullhorn",
-    "name": "Foghorn",
-    "soundEffectnum": 19
-  },
-  {
-    "alarm": "alarm20",
-    "id": "sound20",
-    "icon": "fas fa-car",
-    "name": "Beeping",
-    "soundEffectnum": 20
-  },
-  {
-    "alarm": "alarm21",
-    "id": "sound21",
-    "icon": "fas fa-exclamation",
-    "name": "Siren",
-    "soundEffectnum": 21
-  },
-  {
-    "alarm": "alarm22",
-    "id": "sound22",
-    "icon": "fas fa-bell",
-    "name": "Bells",
-    "soundEffectnum": 22
-  },
   {
     "alarm": "alarm23",
     "id": "sound23",
@@ -162,6 +134,34 @@
     "icon": "fas fa-frown",
     "name": "Trombone",
     "soundEffectnum": 29
+  },
+  {
+    "alarm": "alarm19",
+    "id": "sound19",
+    "icon": "fas fa-bullhorn",
+    "name": "Foghorn",
+    "soundEffectnum": 19
+  },
+  {
+    "alarm": "alarm22",
+    "id": "sound22",
+    "icon": "fas fa-bell",
+    "name": "Bells",
+    "soundEffectnum": 22
+  },
+  {
+    "alarm": "alarm21",
+    "id": "sound21",
+    "icon": "fas fa-exclamation",
+    "name": "Siren",
+    "soundEffectnum": 21
+  },
+  {
+    "alarm": "alarm20",
+    "id": "sound20",
+    "icon": "fas fa-car",
+    "name": "Beeping",
+    "soundEffectnum": 20
   },
   {
     "alarm": "alarm30",

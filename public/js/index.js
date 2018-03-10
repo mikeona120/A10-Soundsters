@@ -9,10 +9,10 @@ function centerIcons() {
 }
 
 function defaultSounds() {
-  $('#sound1').addClass('active');
-  $('#sound19').addClass('active');
-  localStorage.setItem("soundscape", 1);
-  localStorage.setItem("alarm", 19);
+  $('#sound2').addClass('active');
+  $('#sound22').addClass('active');
+  localStorage.setItem("soundscape", 2);
+  localStorage.setItem("alarm", 22);
 }
 
 function resetSlider() {
@@ -59,7 +59,7 @@ $(function () {
 //Scrolling for Soundscape
 $(function(){
   var isDown = false, currentX = 0, currentY = 0;
-
+  $('#scroll1').scrollLeft(515);
   $('#scroll1').mousemove(function(event){
     if(isDown === true){
      //$('#scroll1').scrollTop($('#scroll1').scrollTop() + (currentY - event.pageY)); 
@@ -83,6 +83,7 @@ $(function(){
 //Scrolling for Alert sound
 $(function(){
   var isDown = false, currentX = 0, currentY = 0;
+  $('#scroll2').scrollLeft(860);
   $('#scroll2').mousemove(function(event){
     if(isDown === true){
      //$('#scroll2').scrollTop($('#scroll2').scrollTop() + (currentY - event.pageY)); 
