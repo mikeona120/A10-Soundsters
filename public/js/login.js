@@ -11,5 +11,12 @@
 // }
 
 function fakeLogin(){
-	window.location = "/home";
+	// var user = document.getElementById('username').value;
+	// var pass = document.getElementById('password').value;
+	if(user == "" || pass == ""){
+		alert("Please enter a username and password.");
+	}
+	else{
+		window.location = "/home";
+	}
 }
