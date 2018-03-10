@@ -41,6 +41,8 @@ function updateTimeRange(val) {
 function defaultAlertTime(val){
   val = 5;
   document.getElementById("alerttime").innerHTML = val + " minutes";
+  sessionStorage.setItem("alerttimeVal", val);
+  sessionStorage.setItem("alerttimeValSecs", "00");
   console.log(val);
 }
 // alert time slider

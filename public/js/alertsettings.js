@@ -20,12 +20,19 @@ if(alertVol != null){
 	document.getElementById("alertVolume").value = alertVol*100;
 }
 
-function defaultAlertTime(val){
-  val = 5;
-  document.getElementById("alerttime").innerHTML = val + " minutes";
-  sessionStorage.setItem("alerttimeVal", val);
-  sessionStorage.setItem("alerttimeValSecs", "00");
-  console.log(val);
+
+function defaultAlertTime(){
+	var alerttimeV = sessionStorage.getItem("alerttimeVal");
+	if(alerttimeV == null){
+		alerttimeV = 5;
+	}
+	document.getElementById("downtimeRange").value = alerttimeV;
+	if(alerttimeV == 1){
+		document.getElementById("alerttime").innerHTML = alerttimeV + " minute";
+	}
+	else{
+		document.getElementById("alerttime").innerHTML = alerttimeV + " minutes";
+	}
 }
 // alert time slider
 function updateAlertTime(val) {
